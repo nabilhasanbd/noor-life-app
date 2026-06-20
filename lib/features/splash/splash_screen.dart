@@ -26,6 +26,11 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
+  // Layout fractions and sizes
+  static const double _mosqueHeightFactor = 0.5;
+  static const double _moonBottomFactor = 0.33;
+  static const double _moonSize = 54;
+
   late final AnimationController _controller;
   late final Animation<double> _fadeIn;
   late final Animation<double> _scaleIn;
@@ -85,16 +90,18 @@ class _SplashScreenState extends State<SplashScreen>
               left: 0,
               right: 0,
               bottom: 0,
-              height: height * 0.5,
+              height: height * _mosqueHeightFactor,
               child: const CustomPaint(
                 painter: MosqueSilhouettePainter(),
               ),
             ),
             Positioned(
-              bottom: height * 0.33,
+              bottom: height * _moonBottomFactor,
               left: 0,
               right: 0,
-              child: const Center(child: CrescentMoon(size: 54)),
+              child: const Center(
+                child: CrescentMoon(size: _moonSize),
+              ),
             ),
             Center(
               child: FadeTransition(
