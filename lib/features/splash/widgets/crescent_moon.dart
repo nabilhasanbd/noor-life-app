@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
+import '../../../app/theme/app_colors.dart';
+
 class CrescentMoon extends StatelessWidget {
   final Color color;
   final double size;
 
   const CrescentMoon({
     super.key,
-    this.color = const Color(0x5580CBC4),
+    this.color = AppColors.crescent,
     this.size = 56,
   });
 
@@ -18,7 +20,6 @@ class CrescentMoon extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          // Full disc
           Container(
             width: size,
             height: size,
@@ -34,14 +35,13 @@ class CrescentMoon extends StatelessWidget {
               ],
             ),
           ),
-          // Offset disc to carve crescent (background color)
           Transform.translate(
             offset: Offset(size * 0.28, -size * 0.05),
             child: Container(
               width: size * 0.92,
               height: size * 0.92,
               decoration: const BoxDecoration(
-                color: Color(0xFF004D40),
+                color: AppColors.primary,
                 shape: BoxShape.circle,
               ),
             ),

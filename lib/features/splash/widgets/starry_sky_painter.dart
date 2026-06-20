@@ -1,13 +1,15 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
+import '../../../app/theme/app_colors.dart';
+
 class StarrySkyPainter extends CustomPainter {
   final int starCount;
   final Color starColor;
 
   const StarrySkyPainter({
     this.starCount = 60,
-    this.starColor = const Color(0x66FFFFFF),
+    this.starColor = AppColors.star,
   });
 
   @override

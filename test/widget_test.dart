@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:noor_life/main.dart';
+import 'package:noor_life/app/app.dart';
 
 void main() {
   testWidgets('App builds smoke test', (WidgetTester tester) async {
