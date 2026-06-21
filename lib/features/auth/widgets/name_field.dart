@@ -3,18 +3,16 @@ import 'package:flutter/material.dart';
 import '../../../app/constants/app_strings.dart';
 import '../../../app/theme/app_colors.dart';
 
-/// Rounded outlined email input field with an email prefix icon.
-class EmailField extends StatelessWidget {
+/// Rounded outlined full-name input field with a person prefix icon.
+class NameField extends StatelessWidget {
   final TextEditingController? controller;
-  final FocusNode? focusNode;
   final FormFieldValidator<String>? validator;
   final TextInputAction textInputAction;
   final ValueChanged<String>? onSubmitted;
 
-  const EmailField({
+  const NameField({
     super.key,
     this.controller,
-    this.focusNode,
     this.validator,
     this.textInputAction = TextInputAction.next,
     this.onSubmitted,
@@ -24,15 +22,14 @@ class EmailField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
-      focusNode: focusNode,
       validator: validator,
-      keyboardType: TextInputType.emailAddress,
+      keyboardType: TextInputType.name,
+      textCapitalization: TextCapitalization.words,
       textInputAction: textInputAction,
       onFieldSubmitted: onSubmitted,
-      autocorrect: false,
       decoration: const InputDecoration(
-        hintText: AppStrings.emailHint,
-        prefixIcon: Icon(Icons.email_outlined, color: AppColors.teal),
+        hintText: AppStrings.nameHint,
+        prefixIcon: Icon(Icons.person_outline, color: AppColors.teal),
         border: _outlineBorder,
         enabledBorder: _outlineBorder,
         focusedBorder: _focusBorder,

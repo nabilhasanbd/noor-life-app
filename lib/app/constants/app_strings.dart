@@ -15,14 +15,23 @@ class AppStrings {
   static const String orContinueWith = 'OR CONTINUE WITH';
   static const String continueWithGoogle = 'Continue with Google';
 
+  // Register
+  static const String nameHint = 'Enter your full name';
+  static const String confirmPasswordHint = 'Confirm your password';
+  static const String createAccount = 'Sign Up';
+  static const String haveAccountPrefix = 'Already have an account? ';
+
   // Validation
   static const String emailRequired = 'Email is required';
   static const String emailInvalid = 'Enter a valid email';
   static const String passwordRequired = 'Password is required';
+  static const String nameRequired = 'Name is required';
+  static const String passwordTooShort = 'Password must be at least 6 characters';
+  static const String passwordsDoNotMatch = 'Passwords do not match';
 
   // Feedback
-  static const String registerComingSoon = 'Register coming soon';
-  static const String signUpComingSoon = 'Sign up coming soon';
+  static const String loginFailed = 'Login failed. Please try again.';
+  static const String registerFailed = 'Sign up failed. Please try again.';
 
   // Home
   static const String homeScreen = 'Home Screen';

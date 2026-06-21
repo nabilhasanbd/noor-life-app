@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'theme/app_theme.dart';
 import '../features/auth/login/login_screen.dart';
+import '../features/auth/register/register_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/splash/splash_screen.dart';
 
@@ -17,6 +18,7 @@ class NoorLifeApp extends StatelessWidget {
       home: const SplashScreen(nextScreen: LoginScreen()),
       routes: {
         LoginScreen.routeName: (_) => const LoginScreen(),
+        RegisterScreen.routeName: (_) => const RegisterScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
       },
     );
