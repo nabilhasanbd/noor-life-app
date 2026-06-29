@@ -20,4 +20,33 @@ class AppColors {
   static const Color glowDeep = Color(0xFF002923);
   static const Color crescent = Color(0x5580CBC4);
   static const Color star = Color(0x66FFFFFF);
+
+  // Home — surfaces & text
+  static const Color homeBackground = Color(0xFFF5F5F5);
+  static const Color sectionTitle = Color(0xFF082F49);
+  static const Color primaryText = Color(0xFF151839);
+  static const Color secondaryText = Color(0xFF334155);
+  static const Color mutedText = Color(0xFF475569);
+  static const Color inactiveLabel = Color(0xFFA1A1AA);
+  static const Color navInactive = Color(0xFFCBD5E1);
+  static const Color slate50 = Color(0xFFF8FAFC);
+
+  // Home — teal scale
+  static const Color teal50 = Color(0xFFF0FDFA);
+  static const Color teal600 = Color(0xFF009689);
+  static const Color teal700 = Color(0xFF0F766E);
+  static const Color teal900 = Color(0xFF134E4A);
+  static const Color headerOverlay = Color(0xFF042F2E);
+  static const Color headerBase = Color(0xFFF1F5F9);
+
+  // Home — rose scale
+  static const Color rose500 = Color(0xFFF43F5E);
+  static const Color rose800 = Color(0xFF9F1239);
+
+  // Home — accents
+  static const Color notificationAmber = Color(0xFFF59F0A);
+  static const Color verseRef = Color(0xFF6DFFFF);
+  static const Color cardBorder = Color(0xFFE5E5E5);
+  static const Color blueGray = Color(0xFF64748B);
+  static const Color lightBlue = Color(0xFF38BDF8);
 }

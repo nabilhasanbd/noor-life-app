@@ -35,4 +35,31 @@ class AppStrings {
 
   // Home
   static const String homeScreen = 'Home Screen';
+  static const String appNameShort = 'NoorLife';
+
+  // Home — header
+  static const String greeting = 'Assalamu Alaikum,\nTariqul \u{1F319}';
+  static const String hijriDate = '9 Ramadhan 1444 H';
+  static const String nextPrayerTime = '04:41 AM';
+  static const String nextPrayerLabel = 'Fajr 3 hour 9 min left';
+
+  // Home — section titles
+  static const String coreFeatures = 'CORE Features';
+  static const String aiAssistant = 'AI ASSISTANT';
+  static const String features = 'Features';
+  static const String dailyDhikr = 'DAILY DHIKR';
+  static const String verseOfTheDayTitle = 'VERSE OF THE DAY';
+  static const String islamicKnowledge = 'ISLAMIC KNOWLEDGE';
+
+  // Home — daily hadith
+  static const String dailyHadithTitle = 'DAILY HADTH';
+  static const String dailyHadithSource = 'Sahih al-Bukhari 69';
+  static const String dailyHadithText =
+      '"Make things easy and do not make them difficult. Give good tidings and do not make people run away."';
+  static const String dailyHadithAttribution = '- Anas Ibn Malik (RA)';
+
+  // Home — verse of the day
+  static const String verseArabic = '\u{0625}\u{0650}\u{0646}\u{064E}\u{0651} \u{0627}\u{0644}\u{0644}\u{0651}\u{064E}\u{0647}\u{064E} \u{0645}\u{064E}\u{0639}\u{064E} \u{0627}\u{0644}\u{0635}\u{0651}\u{064E}\u{0627}\u{0628}\u{0650}\u{0631}\u{0650}\u{064A}\u{0652}\u{0646}\u{064E}';
+  static const String verseTranslation = '"Indeed, Allah is with the patient."';
+  static const String verseReference = 'Quran 2:153';
 }
