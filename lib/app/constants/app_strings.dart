@@ -62,4 +62,13 @@ class AppStrings {
   static const String verseArabic = '\u{0625}\u{0650}\u{0646}\u{064E}\u{0651} \u{0627}\u{0644}\u{0644}\u{0651}\u{064E}\u{0647}\u{064E} \u{0645}\u{064E}\u{0639}\u{064E} \u{0627}\u{0644}\u{0635}\u{0651}\u{064E}\u{0627}\u{0628}\u{0650}\u{0631}\u{0650}\u{064A}\u{0652}\u{0646}\u{064E}';
   static const String verseTranslation = '"Indeed, Allah is with the patient."';
   static const String verseReference = 'Quran 2:153';
+
+  // Quran page
+  static const String quranTitle = 'Al-Quran';
+  static const String quranSubtitle = 'Explore The Holy Quran';
+  static const String searchSurahsHint = 'Search Surahs...';
+  static const String filterAll = 'All';
+  static const String filterMeccan = 'Meccan';
+  static const String filterMedinan = 'Medinan';
+  static const String allSurah = 'All Surah';
 }

@@ -4,6 +4,7 @@ import 'theme/app_theme.dart';
 import '../features/auth/login/login_screen.dart';
 import '../features/auth/register/register_screen.dart';
 import '../features/home/home_screen.dart';
+import '../features/quran/quran_screen.dart';
 import '../features/splash/splash_screen.dart';
 
 class NoorLifeApp extends StatelessWidget {
@@ -20,6 +21,7 @@ class NoorLifeApp extends StatelessWidget {
         LoginScreen.routeName: (_) => const LoginScreen(),
         RegisterScreen.routeName: (_) => const RegisterScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
+        QuranScreen.routeName: (_) => const QuranScreen(),
       },
     );
   }
