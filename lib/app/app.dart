@@ -6,6 +6,7 @@ import '../features/auth/register/register_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/quran/quran_screen.dart';
 import '../features/splash/splash_screen.dart';
+import '../features/ai_chat/ai_chat_screen.dart';
 
 class NoorLifeApp extends StatelessWidget {
   const NoorLifeApp({super.key});
@@ -22,6 +23,7 @@ class NoorLifeApp extends StatelessWidget {
         RegisterScreen.routeName: (_) => const RegisterScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
         QuranScreen.routeName: (_) => const QuranScreen(),
+        AiChatScreen.routeName: (_) => const AiChatScreen(),
       },
     );
   }

@@ -57,11 +57,13 @@ class AppColors {
   // Quran page — rose scale
   static const Color rose50 = Color(0xFFFFF1F2);
   static const Color rose100 = Color(0xFFFFE4E6);
+  static const Color rose200 = Color(0xFFFFCCD3);
   static const Color quranRose800 = Color(0xFFA50036);
 
   // Quran page — surfaces
   static const Color searchFieldFill = Color(0xFFF5F5FA);
   static const Color chipFill = Color(0xFFE5E5E5);
+  static const Color trueGray300 = Color(0xFFD4D4D4);
   static const Color cardSurface = Color(0xFFFBFAF9);
   static const Color zinc200 = Color(0xFFE4E4E7);
 }

@@ -71,4 +71,17 @@ class AppStrings {
   static const String filterMeccan = 'Meccan';
   static const String filterMedinan = 'Medinan';
   static const String allSurah = 'All Surah';
+
+  // AI Chat page
+  static const String aiAssistantTitle = 'AI Islamic Assistant';
+  static const String aiAssistantSubtitle =
+      'Ask questions about Fiqh, Quran, Hadith, and Islamic lifestyle';
+  static const String bismillahTitle = 'Bismillah';
+  static const String bismillahSubtitle =
+      'Ask any question about Islam and get answers\nfrom authentic sources';
+  static const String aiInputHint = 'Ask a question about Islam...';
+  static const String suggestionWudu = 'What breaks wudu?';
+  static const String suggestionIstikhara = 'How to perform Salatul Istikhara?';
+  static const String suggestionMusic = 'Is music halal in Islam?';
+  static const String suggestionPillars = 'What are the pillars of Islam?';
 }
